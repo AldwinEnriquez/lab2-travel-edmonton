@@ -308,7 +308,7 @@ Target: .site-nav a.active
     color: #555;
 }
 
-/* Design Studios // Override the styles above */
+/* Design Studios Options // Override the styles above */
 
 .site-nav a{
  color: var(--white);
