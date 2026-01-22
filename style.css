@@ -308,3 +308,33 @@ Target: .site-nav a.active
     color: #555;
 }
 
+/* Design Studios // Override the styles above */
+
+.site-nav a{
+ color: var(--white);
+ text-decoration: none;
+ padding: 10px 18px;
+ display: inline-block;
+ border-radius: 6px;
+ transition: background-color 0.2s;
+}
+.site-nav a:hover{ background: var(--accent); }
+.site-nav a.active{ background: rgba(255,255,255,0.18); }
+
+.card{
+ background: var(--white);
+ padding: 16px;
+ margin-bottom: 15px;
+ border: 1px solid var(--border);
+ border-radius: 12px;
+}
+
+.layout{
+ margin-top: 20px;
+ display: flex;
+ gap: 20px;
+}
+.main{ flex: 2; }
+.sidebar{ flex: 1; }
+
+
